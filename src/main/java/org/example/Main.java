@@ -11,9 +11,9 @@ public class Main {
 
         System.out.println("              Main Menu             ");
         System.out.println("======================================");
-        System.out.println("1. Add Book");
-        System.out.println("2. Show Book");
-        System.out.println("0.  Exit");
+        System.out.println("1. Calculator");
+        System.out.println("2. Text Processor");
+        System.out.println("0. Exit");
 
         System.out.println("\nMake your choice");
         int choice = scan.nextInt();
@@ -25,9 +25,10 @@ public class Main {
                 repeat = false;
                 break;
             case 1:
-
+                Calculator.calculate();
                 break;
             case 2:
+                //TextProcessor
                 break;
 
             default:
