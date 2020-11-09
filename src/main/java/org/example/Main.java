@@ -28,7 +28,7 @@ public class Main {
                 Calculator.calculate();
                 break;
             case 2:
-                //TextProcessor
+                TextProcessor.textprocess();
                 break;
 
             default:

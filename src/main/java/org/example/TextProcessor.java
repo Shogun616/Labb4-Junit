@@ -4,5 +4,7 @@ import java.util.Scanner;
 
 public class TextProcessor {
 
-    Scanner scan = new Scanner(System.in);
+    static void textprocess(){
+        
+    }
 }
