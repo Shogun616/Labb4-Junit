@@ -3,11 +3,13 @@ package org.example;
 public class TextProcessor {
 
     public static void uppercase(){
-        System.out.println("java" + " verktyg");
+        String txt = "java verktyg";
+        System.out.println(txt.toUpperCase());
     }
 
     public static void lowercase(){
-        System.out.println("java" + " verktyg");
+        String txt = "JAVA VERKTYG";
+        System.out.println(txt.toLowerCase());
     }
 
     public static void reverse(){
