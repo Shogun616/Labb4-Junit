@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697a1050-82c0-42c6-a0d6-43fa11fbf317" name="Default Changelist" comment="Version 2.5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TextProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TextProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/TextProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/TextProcessor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +136,7 @@
       <workItem from="1604936567922" duration="2914000" />
       <workItem from="1604941249365" duration="1421000" />
       <workItem from="1604949800951" duration="521000" />
-      <workItem from="1604992072394" duration="4217000" />
+      <workItem from="1604992072394" duration="4345000" />
     </task>
     <task id="LOCAL−00001" summary="Version 1.5">
       <created>1604929087038</created>
@@ -164,7 +162,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1605004916404</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Version 2.5">
+      <created>1605018175890</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1605018175890</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
