@@ -22,10 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697a1050-82c0-42c6-a0d6-43fa11fbf317" name="Default Changelist" comment="Version 2.1">
+    <list default="true" id="697a1050-82c0-42c6-a0d6-43fa11fbf317" name="Default Changelist" comment="Version 2.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TextProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TextProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,23 +67,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.example.Calculator" />
       <module name="Labb4-Junit" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,7 +112,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Calculator" />
       <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.TextProcessorTest" />
     </list>
@@ -141,7 +128,9 @@
       <workItem from="1604928480978" duration="529000" />
       <workItem from="1604929018374" duration="5270000" />
       <workItem from="1604936567922" duration="2914000" />
-      <workItem from="1604941249365" duration="967000" />
+      <workItem from="1604941249365" duration="1421000" />
+      <workItem from="1604949800951" duration="521000" />
+      <workItem from="1604992072394" duration="2622000" />
     </task>
     <task id="LOCAL−00001" summary="Version 1.5">
       <created>1604929087038</created>
@@ -186,34 +175,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="Version 2.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604930115717">
+    <state x="414" y="175" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605004830739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604930115717" />
-    <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604930113522">
+    <state x="414" y="175" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605004830739" />
+    <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605004823052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604930113522" />
+    <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605004823052" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604930262399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604930262399" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604941564556">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604948101106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604941564556" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604941564556">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604948101106" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604948101106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604941564556" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604941564556">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604948101106" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604948101105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604941564556" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604941564556">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604948101105" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604948101106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604941564556" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604948101106" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604936054526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
