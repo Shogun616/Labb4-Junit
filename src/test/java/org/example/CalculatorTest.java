@@ -1,33 +1,53 @@
 package org.example;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTest {
 
+    @BeforeAll
+    public static void init(){
+        System.out.println("Before All init() method called");
+    }
 
+    @BeforeEach
+    public void initEach(){
+        System.out.println("Before Each initEach() method called");
+    }
+
+
+    @DisplayName("Add operation test")
     @Test
     void testAdd(){
-        Calculator calculator = new Calculator();
-        assertEquals(4, calculator.add(2,2));
+        assertEquals(4, Calculator.add(2,2));
     }
 
-    @Test
+    @DisplayName("Sub operation test")
+    @RepeatedTest(5)
     void testSub(){
-        Calculator calculator = new Calculator();
-        assertEquals(0, calculator.sub(2, 2));
+        assertEquals(0, Calculator.sub(2, 2));
     }
 
+    @DisplayName("Multi operation test")
     @Test
     void testMulti(){
-        Calculator calculator = new Calculator();
-        assertEquals(8, calculator.multi(4, 2));
+        assertEquals(8, Calculator.multi(4, 2));
     }
 
+    @DisplayName("Div operation test")
     @Test
     void testDiv(){
-        Calculator calculator = new Calculator();
-        assertEquals(4, calculator.div(8, 2));
+        assertEquals(4, Calculator.div(8, 2));
+    }
+
+    @AfterEach
+    public void cleanUpEach(){
+        System.out.println("After Each cleanUpEach() method called");
+    }
+
+    @AfterAll
+    public static void cleanUp(){
+        System.out.println("After All cleanUp() method called");
     }
 }
