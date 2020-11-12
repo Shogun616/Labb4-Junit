@@ -2,25 +2,28 @@ package org.example;
 
 public class TextProcessor {
 
-    public static void uppercase(){
-        String txt = "java verktyg";
-        System.out.println(txt.toUpperCase());
+    public static String uppercase(String a){
+        return a.toUpperCase();
     }
 
-    public static void lowercase(){
-        String txt = "JAVA VERKTYG";
-        System.out.println(txt.toLowerCase());
+    public static String lowercase(String a){
+        return a.toLowerCase();
     }
 
-    public static void reverse(){
-        StringBuilder str = new StringBuilder("Java Verktyg");
-        str.reverse();
-        System.out.println(str);
+    public static String backwards(String a){
+        StringBuilder str = new StringBuilder("java verktyg");
+
+        str.append(a);
+
+        str = str.reverse();
+
+        return a + str;
     }
 
     public static void main(String[] args) {
-        uppercase();
-        lowercase();
-        reverse();
+        System.out.println("java verktyg blir " + uppercase("java verktyg") + ".");
+        System.out.println("JAVA VERKTYG blir " + lowercase("JAVA verktyg") + ".");
+        System.out.println("java verktyg blir " +backwards("") + ".");
     }
+
 }

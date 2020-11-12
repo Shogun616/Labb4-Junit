@@ -16,28 +16,32 @@ public class CalculatorTest {
         System.out.println("Before Each initEach() method called");
     }
 
-
     @DisplayName("Add operation test")
-    @Test
-    void testAdd(){
+    @RepeatedTest(5)
+    void testAdd(TestInfo testInfo, RepetitionInfo repetitionInfo){
+        System.out.println("Running test -> " + repetitionInfo.getCurrentRepetition());
         assertEquals(4, Calculator.add(2,2));
     }
 
     @DisplayName("Sub operation test")
     @RepeatedTest(5)
-    void testSub(){
+    void testSub(TestInfo testInfo, RepetitionInfo repetitionInfo){
+        System.out.println("Running test -> " + repetitionInfo.getCurrentRepetition());
         assertEquals(0, Calculator.sub(2, 2));
+        Assertions.assertNotEquals(3, Calculator.sub(2, 2));
     }
 
     @DisplayName("Multi operation test")
-    @Test
-    void testMulti(){
+    @RepeatedTest(5)
+    void testMulti(TestInfo testInfo, RepetitionInfo repetitionInfo){
+        System.out.println("Running test -> " + repetitionInfo.getCurrentRepetition());
         assertEquals(8, Calculator.multi(4, 2));
     }
 
     @DisplayName("Div operation test")
-    @Test
-    void testDiv(){
+    @RepeatedTest(5)
+    void testDiv(TestInfo testInfo, RepetitionInfo repetitionInfo){
+        System.out.println("Running test -> " + repetitionInfo.getCurrentRepetition());
         assertEquals(4, Calculator.div(8, 2));
     }
 
