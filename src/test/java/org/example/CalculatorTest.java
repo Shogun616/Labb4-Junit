@@ -18,14 +18,14 @@ public class CalculatorTest {
 
     @DisplayName("Add operation test")
     @RepeatedTest(5)
-    void testAdd(TestInfo testInfo, RepetitionInfo repetitionInfo){
+    void testAdd(RepetitionInfo repetitionInfo){
         System.out.println("Running test -> " + repetitionInfo.getCurrentRepetition());
         assertEquals(4, Calculator.add(2,2));
     }
 
     @DisplayName("Sub operation test")
     @RepeatedTest(5)
-    void testSub(TestInfo testInfo, RepetitionInfo repetitionInfo){
+    void testSub(RepetitionInfo repetitionInfo){
         System.out.println("Running test -> " + repetitionInfo.getCurrentRepetition());
         assertEquals(0, Calculator.sub(2, 2));
         Assertions.assertNotEquals(3, Calculator.sub(2, 2));
@@ -33,14 +33,14 @@ public class CalculatorTest {
 
     @DisplayName("Multi operation test")
     @RepeatedTest(5)
-    void testMulti(TestInfo testInfo, RepetitionInfo repetitionInfo){
+    void testMulti(RepetitionInfo repetitionInfo){
         System.out.println("Running test -> " + repetitionInfo.getCurrentRepetition());
         assertEquals(8, Calculator.multi(4, 2));
     }
 
     @DisplayName("Div operation test")
     @RepeatedTest(5)
-    void testDiv(TestInfo testInfo, RepetitionInfo repetitionInfo){
+    void testDiv(RepetitionInfo repetitionInfo){
         System.out.println("Running test -> " + repetitionInfo.getCurrentRepetition());
         assertEquals(4, Calculator.div(8, 2));
     }

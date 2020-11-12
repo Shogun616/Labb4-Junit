@@ -15,6 +15,7 @@ public class TextProcessorTest {
     @Test
     void testUppercase(){
         assertEquals("JAVA", TextProcessor.uppercase("java"));
+        Assertions.assertNull(null);
     }
 
     @BeforeEach
@@ -26,6 +27,7 @@ public class TextProcessorTest {
     @Test
     void testLowercase(){
         assertEquals("java", TextProcessor.lowercase("JAVA"));
+        Assertions.assertNull(null);
     }
 
     @AfterEach
@@ -34,10 +36,10 @@ public class TextProcessorTest {
     }
 
     @DisplayName("Reverse operation test")
-    @RepeatedTest(5)
-    void testReverse(TestInfo testInfo, RepetitionInfo repetitionInfo){
-        System.out.println("Running test -> " + repetitionInfo.getCurrentRepetition());
+    @Test
+    void testReverse(){
         Assertions.assertNotEquals("avaj", TextProcessor.backwards("java"));
+        Assertions.assertNull(null);
     }
 
     @AfterAll

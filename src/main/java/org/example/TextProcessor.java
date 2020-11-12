@@ -23,7 +23,7 @@ public class TextProcessor {
     public static void main(String[] args) {
         System.out.println("java verktyg blir " + uppercase("java verktyg") + ".");
         System.out.println("JAVA VERKTYG blir " + lowercase("JAVA verktyg") + ".");
-        System.out.println("java verktyg blir " +backwards("") + ".");
+        System.out.println("java verktyg blir " + backwards("") + ".");
     }
 
 }
