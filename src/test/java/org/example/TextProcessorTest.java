@@ -43,6 +43,7 @@ public class TextProcessorTest {
         assertNull(null);
     }
 
+    @DisplayName("Disable operation test")
     @Disabled
     @Test
     void assertTrue(Boolean condition, String message){
