@@ -6,6 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TextProcessorTest {
 
+    static boolean trueBool = true;
+    static boolean falseBool = false;
+
     @BeforeAll
     public static void init(){
         System.out.println("Before All init() method called");
@@ -32,6 +35,7 @@ public class TextProcessorTest {
 
     @AfterEach
     public void cleanUpEach(){
+
         System.out.println("After Each cleanUpEach() method called");
     }
 
@@ -44,6 +48,7 @@ public class TextProcessorTest {
 
     @AfterAll
     public static void cleanUp(){
+
         System.out.println("After All cleanUp() method called");
     }
 }

@@ -8,11 +8,13 @@ public class CalculatorTest {
 
     @BeforeAll
     public static void init(){
+
         System.out.println("Before All init() method called");
     }
 
     @BeforeEach
     public void initEach(){
+
         System.out.println("Before Each initEach() method called");
     }
 
@@ -47,11 +49,13 @@ public class CalculatorTest {
 
     @AfterEach
     public void cleanUpEach(){
+
         System.out.println("After Each cleanUpEach() method called");
     }
 
     @AfterAll
     public static void cleanUp(){
+
         System.out.println("After All cleanUp() method called");
     }
 }
