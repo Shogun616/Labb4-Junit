@@ -2,12 +2,9 @@ package org.example;
 
 import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class TextProcessorTest {
-
-    static boolean trueBool = true;
-    static boolean falseBool = false;
 
     @BeforeAll
     public static void init(){
@@ -18,7 +15,7 @@ public class TextProcessorTest {
     @Test
     void testUppercase(){
         assertEquals("JAVA", TextProcessor.uppercase("java"));
-        Assertions.assertNull(null);
+        assertNull(null);
     }
 
     @BeforeEach
@@ -30,7 +27,7 @@ public class TextProcessorTest {
     @Test
     void testLowercase(){
         assertEquals("java", TextProcessor.lowercase("JAVA"));
-        Assertions.assertNull(null);
+        assertNull(null);
     }
 
     @AfterEach
@@ -42,8 +39,8 @@ public class TextProcessorTest {
     @DisplayName("Reverse operation test")
     @Test
     void testReverse(){
-        Assertions.assertNotEquals("avaj", TextProcessor.backwards("java"));
-        Assertions.assertNull(null);
+        assertNotEquals("avaj", TextProcessor.backwards("java"));
+        assertNull(null);
     }
 
     @AfterAll
