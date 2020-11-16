@@ -47,7 +47,7 @@ public class CalculatorTest {
         assertEquals(4, Calculator.div(8, 2));
     }
 
-    @AfterEach
+   @AfterEach
     public void cleanUpEach(){
 
         System.out.println("After Each cleanUpEach() method called");

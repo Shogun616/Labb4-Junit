@@ -4,11 +4,14 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 public class TextProcessorTest {
 
     @BeforeAll
     public static void init(){
+
         System.out.println("Before All init() method called");
+        //Assertions.assertEquals(true, false, "Start"); Fick det inte att funka.
     }
 
     @DisplayName("Uppercase operation test")
@@ -20,6 +23,7 @@ public class TextProcessorTest {
 
     @BeforeEach
     public void initEach(){
+
         System.out.println("Before Each initEach() method called");
     }
 
