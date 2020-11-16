@@ -3,7 +3,6 @@ package org.example;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TextProcessorTest {
 
@@ -46,11 +45,9 @@ public class TextProcessorTest {
 
     @Disabled
     @Test
-    void testDisable(){
-        //assertTrue(true); /*Fick det inte att funka*/
+    void assertTrue(Boolean condition, String message){
+        assertTrue(true, "Pass");
     }
-
-
 
     @AfterAll
     public static void cleanUp(){
